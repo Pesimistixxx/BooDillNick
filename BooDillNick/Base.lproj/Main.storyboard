@@ -16,37 +16,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Vf-TE-AJM">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="36" translatesAutoresizingMaskIntoConstraints="NO" id="8Vf-TE-AJM">
                                 <rect key="frame" x="131" y="59.000000000000007" width="131" height="127.66666666666669"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GPR-U5-d4U">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="52" translatesAutoresizingMaskIntoConstraints="NO" id="GPR-U5-d4U">
                                 <rect key="frame" x="0.0" y="59.000000000000007" width="131" height="127.66666666666669"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Js-zM-YLo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="4Js-zM-YLo">
                                 <rect key="frame" x="262" y="59.000000000000007" width="131" height="127.66666666666669"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm Clocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oau-8J-oSl">
+                                <rect key="frame" x="111" y="186.66666666666666" width="171" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="gec-oL-eO5">
+                                <rect key="frame" x="-26.333333333333329" y="222.66666666666663" width="157.33333333333331" height="152"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="52" translatesAutoresizingMaskIntoConstraints="NO" id="xha-Ea-nOg">
+                                <rect key="frame" x="81.000000000000014" y="222.66666666666663" width="157.33333333333337" height="152"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hrM-nR-VOd">
+                                <rect key="frame" x="304" y="283.33333333333331" width="51" height="31"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <connections>
+                                    <action selector="AlarmOn:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="g5l-g8-viu"/>
+                                    <action selector="Pressed:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="pnb-Ss-x8U"/>
+                                    <action selector="SwitchAlarm1Changed:" destination="BYZ-38-t0r" eventType="valueChanged" id="EON-8R-Ydm"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="0.4203030143" blue="0.46712973320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="oau-8J-oSl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.435115" id="2Cf-4G-8hh"/>
+                            <constraint firstItem="gec-oL-eO5" firstAttribute="trailing" secondItem="GPR-U5-d4U" secondAttribute="trailing" id="43h-Tf-HcK"/>
                             <constraint firstItem="8Vf-TE-AJM" firstAttribute="top" secondItem="GPR-U5-d4U" secondAttribute="top" id="85O-3x-Y6A"/>
+                            <constraint firstItem="hrM-nR-VOd" firstAttribute="leading" secondItem="4Js-zM-YLo" secondAttribute="trailing" constant="-89" id="Ae5-OV-dfL"/>
                             <constraint firstItem="GPR-U5-d4U" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="BfL-JI-TTc"/>
                             <constraint firstItem="8Vf-TE-AJM" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="JOA-re-cuQ"/>
+                            <constraint firstItem="gec-oL-eO5" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.2" id="JqI-RX-ECH"/>
+                            <constraint firstItem="xha-Ea-nOg" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.2" id="Kvr-WH-DYw"/>
                             <constraint firstItem="GPR-U5-d4U" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.333333" id="Mlf-YR-tu6"/>
+                            <constraint firstItem="hrM-nR-VOd" firstAttribute="centerY" secondItem="xha-Ea-nOg" secondAttribute="centerY" id="Mwe-re-Uxc"/>
                             <constraint firstItem="4Js-zM-YLo" firstAttribute="leading" secondItem="8Vf-TE-AJM" secondAttribute="trailing" id="NDF-YA-hPT"/>
+                            <constraint firstItem="gec-oL-eO5" firstAttribute="top" secondItem="oau-8J-oSl" secondAttribute="bottom" id="Nwc-Zq-3J4"/>
                             <constraint firstItem="8Vf-TE-AJM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.333333" id="Oif-Gr-Ogc"/>
+                            <constraint firstItem="oau-8J-oSl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TBQ-f8-IOM"/>
                             <constraint firstItem="GPR-U5-d4U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wfa-mU-ReR"/>
                             <constraint firstItem="4Js-zM-YLo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XX4-Xc-oz3"/>
                             <constraint firstItem="GPR-U5-d4U" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XbJ-hg-yA0"/>
+                            <constraint firstItem="xha-Ea-nOg" firstAttribute="top" secondItem="gec-oL-eO5" secondAttribute="top" id="XeK-zp-bOO"/>
                             <constraint firstItem="4Js-zM-YLo" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15" id="awl-Ng-yZr"/>
                             <constraint firstItem="4Js-zM-YLo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.33333" id="eP2-8S-9LY"/>
+                            <constraint firstItem="oau-8J-oSl" firstAttribute="top" secondItem="8Vf-TE-AJM" secondAttribute="bottom" id="eVk-6P-gd0"/>
+                            <constraint firstItem="xha-Ea-nOg" firstAttribute="leading" secondItem="gec-oL-eO5" secondAttribute="trailing" constant="-50" id="ibe-oV-buW"/>
+                            <constraint firstItem="gec-oL-eO5" firstAttribute="width" secondItem="GPR-U5-d4U" secondAttribute="width" multiplier="1.2" id="nas-CE-cEg"/>
                             <constraint firstItem="8Vf-TE-AJM" firstAttribute="leading" secondItem="GPR-U5-d4U" secondAttribute="trailing" id="oVt-VZ-1sz"/>
+                            <constraint firstItem="oau-8J-oSl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0422535" id="sUm-dr-QdR"/>
+                            <constraint firstItem="xha-Ea-nOg" firstAttribute="width" secondItem="8Vf-TE-AJM" secondAttribute="width" multiplier="1.2" id="tNT-Rv-CKg"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="AlarmClock1Hour" destination="gec-oL-eO5" id="daX-J0-vQ7"/>
+                        <outlet property="AlarmClock1Minute" destination="xha-Ea-nOg" id="nzc-Qj-2vn"/>
                         <outlet property="HourImage" destination="GPR-U5-d4U" id="Myj-I8-eeF"/>
                         <outlet property="MinuteImage" destination="8Vf-TE-AJM" id="UJq-N8-v9d"/>
                         <outlet property="SecondImage" destination="4Js-zM-YLo" id="tV4-9N-cmy"/>
+                        <outlet property="SwitchAlarm1" destination="hrM-nR-VOd" id="REf-4Z-K4O"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="YCE-bD-UZ1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -55,8 +98,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="18" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="36" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="52" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="9" width="166.66667175292969" height="166.66667175292969"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
