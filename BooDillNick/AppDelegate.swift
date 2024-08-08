@@ -7,15 +7,37 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    let notificationCentre = UNUserNotificationCenter.current()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        notificationCentre.requestAuthorization(options: [.alert,.sound,.badge]){ (granted,error) in
+            guard granted else {return}
+            self.notificationCentre.getNotificationSettings { (settings) in
+                guard settings.authorizationStatus == .authorized else {return}
+            }
+            
+        }
+        
         // Override point for customization after application launch.
+        notificationCentre.delegate = self
+        sendNotification()
         return true
+    }
+    func sendNotification(){
+        let content = UNMutableNotificationContent()
+        content.title = "CLOCK ALARM"
+        content.body = "Solve a math example to turn it off"
+        content.sound = UNNotificationSound.default
+        let triger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+        let request = UNNotificationRequest(identifier: "notification", content: content, trigger: triger)
+        notificationCentre.add(request){ (error) in
+            print(error?.localizedDescription)
+        }
     }
 
     // MARK: UISceneSession Lifecycle
@@ -79,3 +101,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: UNUserNotificationCenterDelegate{
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.alert, .sound])
+    }
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        print(#function)
+    }
+}

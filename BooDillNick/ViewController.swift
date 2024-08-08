@@ -7,10 +7,17 @@
 
 import UIKit
 
+protocol VCDelegate{
+    func changeTime(hour: Int, minute : Int)
+    func changeDescription(description : String)
+}
+
 class ViewController: UIViewController, UIScrollViewDelegate{
     var alarmClock1Enabled = false
     var alarmClock1Hour = 18
     var alarmClock1Minute = 52
+    
+    @IBOutlet var alarmClock1Description: UILabel!
     @IBOutlet var AlarmClock1Minute: UIImageView!
     @IBOutlet var AlarmClock1Hour: UIImageView!
     @IBOutlet var SwitchAlarm1: UISwitch!
@@ -22,6 +29,18 @@ class ViewController: UIViewController, UIScrollViewDelegate{
         alarmClock1Enabled = true
         
     }
+    override func prepare(for segue : UIStoryboardSegue, sender : Any?){
+        if segue.identifier == "changeTime", let vc = segue.destination as?TimeViewController{
+            vc.po = 2
+            vc.descriptionchange = alarmClock1Description.text!
+            vc.delegate = self
+        }
+    }
+    @IBAction func ChangeTime(_ sender: Any?) {
+        performSegue(withIdentifier: "changeTime", sender: self)
+        print("!!!")
+    }
+    
     func updateUI(){
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true){
             (_) in
@@ -45,3 +64,13 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     }
 }
 
+extension ViewController : VCDelegate{
+    func changeTime(hour: Int, minute: Int) {
+        AlarmClock1Minute.image = UIImage(named: String(minute))
+        AlarmClock1Hour.image = UIImage(named: String(hour))
+        //print(hour,minute)
+    }
+    func changeDescription(description : String){
+        alarmClock1Description.text = description
+    }
+}

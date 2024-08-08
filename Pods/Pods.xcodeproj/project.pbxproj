@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414B92CB49E6A489BAC59ACBEEAE77BC /* Pods-BooDillNick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 747C9492AACB220B876D5C5266908755 /* Pods-BooDillNick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528A619F106D5204275EF393C6816697 /* Pods-BooDillNick-BooDillNickUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6376F8DD4129153578B940F8B86AE6 /* Pods-BooDillNick-BooDillNickUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584C31DBAAAAD4107D41A26DF4EE7DF4 /* Pods-BooDillNickTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C80B115EB30C9EAC6D0EF8EF3458DE9A /* Pods-BooDillNickTests-dummy.m */; };
+		6B984E310C771041FE30327E584EABE7 /* AlarmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C4F56F48004954E502158A451A048F /* AlarmKit-dummy.m */; };
+		6F9D500D4A4A92839401639E8511BB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7A5631D96C64D9B2B203E1E6F6F2FEC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		800FFB2EC6CE9103E9B3AAA69B38421F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87E031E3793D1A269E65B543BA3AE2E7 /* Pods-BooDillNick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE976E22A5F67CA85DF90060AB9C1E9 /* Pods-BooDillNick-dummy.m */; };
+		A7F72B0D8C4C3C5B56B14171B1F5A5CA /* AlarmKit-AlarmKit in Resources */ = {isa = PBXBuildFile; fileRef = DF00F251B8BCCC82DBE6F1038C05068D /* AlarmKit-AlarmKit */; };
+		C04653CFD9A5A4F7492D0B4204FB6F7D /* Pods-BooDillNick-BooDillNickUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F59A7845D57029D3CE720ADB59DDF5 /* Pods-BooDillNick-BooDillNickUITests-dummy.m */; };
+		D6A9BE0C00C76E4FC8EC28C636EA68B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB29D2D680BA94C0EBE367F92F92BBE8 /* AlarmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B99CA90C840205BD9FAA0264C2AE6F3 /* AlarmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F046F108C10079ED00AEDDC1FA3363AC /* AlarmKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193437EF136875A6556F6EAA411CAE7 /* AlarmKit.swift */; };
+		F68E05D20B505E2C8978CFE0141094AC /* Pods-BooDillNickTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E69D4566A8125319AC3A3348FB7424C3 /* Pods-BooDillNickTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390671A97EDE8B5FF0CF08D80CA25185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B544CE0EB462A6EA6009510F20F65A7A;
+			remoteInfo = "AlarmKit-AlarmKit";
+		};
+		4215C4552228972218D8027A6C132FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4935DC88348AD4337102FC6F3F98EACC;
+			remoteInfo = AlarmKit;
+		};
+		564CE68C47FF66BFDF49ACC8E91750A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4935DC88348AD4337102FC6F3F98EACC;
+			remoteInfo = AlarmKit;
+		};
+		CF776CC9FCF11CA389924ED5D914F250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0D7C78309C67DC8F234809B895D7936;
+			remoteInfo = "Pods-BooDillNick";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094623847245132713B881495EBCE9DE /* Pods-BooDillNick-BooDillNickUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BooDillNick-BooDillNickUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EFC745FC4D78210FBC6BB9F7A916459 /* AlarmKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlarmKit; path = AlarmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FE1A33894ED6E9580C5A00619600E8 /* AlarmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlarmKit-prefix.pch"; sourceTree = "<group>"; };
+		35C6F2CEA48EA14B8819FD577FBEEEF0 /* Pods-BooDillNick-BooDillNickUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BooDillNick-BooDillNickUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3B8E4A3686CBA4A4BEDF579B0F27459D /* Pods-BooDillNick-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BooDillNick-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43038FC2C8A0C68FEDBD1552CA9B66F3 /* ResourceBundle-AlarmKit-AlarmKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AlarmKit-AlarmKit-Info.plist"; sourceTree = "<group>"; };
+		45CF27DF8856ECF7731E3CB2769F5FBF /* Pods-BooDillNick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNick-Info.plist"; sourceTree = "<group>"; };
+		4A6376F8DD4129153578B940F8B86AE6 /* Pods-BooDillNick-BooDillNickUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BooDillNick-BooDillNickUITests-umbrella.h"; sourceTree = "<group>"; };
+		4B99CA90C840205BD9FAA0264C2AE6F3 /* AlarmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlarmKit-umbrella.h"; sourceTree = "<group>"; };
+		5B0B6AB9402CDFEB5D15C5C0A47D92A5 /* Pods-BooDillNick-BooDillNickUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNick-BooDillNickUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F4B4BE9B5CB6C59258EFAD6B5062109 /* Pods-BooDillNick-BooDillNickUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BooDillNick-BooDillNickUITests"; path = Pods_BooDillNick_BooDillNickUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D02142AF6E21372221C728895D198E /* Pods-BooDillNick-BooDillNickUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNick-BooDillNickUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68F59A7845D57029D3CE720ADB59DDF5 /* Pods-BooDillNick-BooDillNickUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BooDillNick-BooDillNickUITests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747C9492AACB220B876D5C5266908755 /* Pods-BooDillNick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BooDillNick-umbrella.h"; sourceTree = "<group>"; };
+		7538178D75F506458835E3693245B5FE /* Pods-BooDillNick-BooDillNickUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNick-BooDillNickUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75B9DD1EB04F067959F0B3ED42EC71D8 /* Pods-BooDillNickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFC4D04699B57D3F0741041189D63FE /* Pods-BooDillNick */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BooDillNick"; path = Pods_BooDillNick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B2A88F50B9DAD6B060583E876C2A9 /* Pods-BooDillNickTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNickTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D90668F3BF0C2717866632934304B5C /* AlarmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlarmKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDA89D12EF424F91B4FAD6C131FCFA5 /* Pods-BooDillNick-BooDillNickUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BooDillNick-BooDillNickUITests.modulemap"; sourceTree = "<group>"; };
+		A442382ADCE60CEF71EFB6CC154E2B35 /* Pods-BooDillNickTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNickTests-Info.plist"; sourceTree = "<group>"; };
+		A73B02ED1E29B4B8D2F68DCB3DBBFD1D /* AlarmKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlarmKit-Info.plist"; sourceTree = "<group>"; };
+		A96A797B0E8C3B5573CC7BF4D508B5F7 /* Pods-BooDillNickTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BooDillNickTests.modulemap"; sourceTree = "<group>"; };
+		B193437EF136875A6556F6EAA411CAE7 /* AlarmKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlarmKit.swift; path = Source/AlarmKit.swift; sourceTree = "<group>"; };
+		B5C4F56F48004954E502158A451A048F /* AlarmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlarmKit-dummy.m"; sourceTree = "<group>"; };
+		BC6C950505C5A36749050514EA6681E8 /* Pods-BooDillNickTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BooDillNickTests"; path = Pods_BooDillNickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB8943677AD5D8D7E34AAABB8938AD6 /* AlarmKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlarmKit.release.xcconfig; sourceTree = "<group>"; };
+		C80B115EB30C9EAC6D0EF8EF3458DE9A /* Pods-BooDillNickTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BooDillNickTests-dummy.m"; sourceTree = "<group>"; };
+		CBE976E22A5F67CA85DF90060AB9C1E9 /* Pods-BooDillNick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BooDillNick-dummy.m"; sourceTree = "<group>"; };
+		D12F877E6D8A0C0FFE363693C3269685 /* Pods-BooDillNickTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BooDillNickTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1CA075F401F8247432CB46CD5713EE9 /* Pods-BooDillNick-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BooDillNick-frameworks.sh"; sourceTree = "<group>"; };
+		D4F45A9DC0AF0E25E1DAD37B4DF3D0B2 /* Pods-BooDillNick-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNick-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7A55F75102DBB413B49FFA0A51C33A8 /* Pods-BooDillNickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNickTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA418643F9AD6032F634C1524677B0E9 /* Pods-BooDillNick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BooDillNick.modulemap"; sourceTree = "<group>"; };
+		DF00F251B8BCCC82DBE6F1038C05068D /* AlarmKit-AlarmKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "AlarmKit-AlarmKit"; path = AlarmKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A8DB3BC144A5828066F96CEF1F9147 /* Pods-BooDillNick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNick.release.xcconfig"; sourceTree = "<group>"; };
+		E69D4566A8125319AC3A3348FB7424C3 /* Pods-BooDillNickTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BooDillNickTests-umbrella.h"; sourceTree = "<group>"; };
+		EB0B89A53FDF194D277DA48C8C2A460A /* AlarmKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlarmKit.debug.xcconfig; sourceTree = "<group>"; };
+		F28CC884E698FCCACD3C70B2AAACF0CA /* Pods-BooDillNick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BooDillNick.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E564923401C219AA124525D8BF33B2 /* Pods-BooDillNick-BooDillNickUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BooDillNick-BooDillNickUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CA8A0DD10B710021FF9E51E57FF636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3187B417E261A354C3F487C49FC7E8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A9BE0C00C76E4FC8EC28C636EA68B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC68F9C35509BB20CCAA11D76CE574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9D500D4A4A92839401639E8511BB01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AEF115C0FAB87C06E618B925DB6C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5631D96C64D9B2B203E1E6F6F2FEC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB04EE5E2C635CC23D3ED138214278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800FFB2EC6CE9103E9B3AAA69B38421F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3D36BD9F8CAC2ACBFC76B613F5B52A /* Pods-BooDillNick-BooDillNickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA89D12EF424F91B4FAD6C131FCFA5 /* Pods-BooDillNick-BooDillNickUITests.modulemap */,
+				094623847245132713B881495EBCE9DE /* Pods-BooDillNick-BooDillNickUITests-acknowledgements.markdown */,
+				5B0B6AB9402CDFEB5D15C5C0A47D92A5 /* Pods-BooDillNick-BooDillNickUITests-acknowledgements.plist */,
+				68F59A7845D57029D3CE720ADB59DDF5 /* Pods-BooDillNick-BooDillNickUITests-dummy.m */,
+				35C6F2CEA48EA14B8819FD577FBEEEF0 /* Pods-BooDillNick-BooDillNickUITests-frameworks.sh */,
+				F8E564923401C219AA124525D8BF33B2 /* Pods-BooDillNick-BooDillNickUITests-Info.plist */,
+				4A6376F8DD4129153578B940F8B86AE6 /* Pods-BooDillNick-BooDillNickUITests-umbrella.h */,
+				7538178D75F506458835E3693245B5FE /* Pods-BooDillNick-BooDillNickUITests.debug.xcconfig */,
+				60D02142AF6E21372221C728895D198E /* Pods-BooDillNick-BooDillNickUITests.release.xcconfig */,
+			);
+			name = "Pods-BooDillNick-BooDillNickUITests";
+			path = "Target Support Files/Pods-BooDillNick-BooDillNickUITests";
+			sourceTree = "<group>";
+		};
+		290EF93B132FD58ED3910F3C323C048C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A70703F63075DF07AD0555325162BC9 /* AlarmKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A70703F63075DF07AD0555325162BC9 /* AlarmKit */ = {
+			isa = PBXGroup;
+			children = (
+				B193437EF136875A6556F6EAA411CAE7 /* AlarmKit.swift */,
+				D662716940B780B34214C8DF070333DC /* Support Files */,
+			);
+			name = AlarmKit;
+			path = AlarmKit;
+			sourceTree = "<group>";
+		};
+		A000CA7BFA3497C7EB56565ACE738334 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A7B689CF934A6237880FF3B1E1B80 /* Pods-BooDillNick */,
+				1F3D36BD9F8CAC2ACBFC76B613F5B52A /* Pods-BooDillNick-BooDillNickUITests */,
+				B38F41772F008FAB2DFFCA8008DA7271 /* Pods-BooDillNickTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B07FE936E633410E7B3B34A5AB4B3FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFC745FC4D78210FBC6BB9F7A916459 /* AlarmKit */,
+				DF00F251B8BCCC82DBE6F1038C05068D /* AlarmKit-AlarmKit */,
+				7FFC4D04699B57D3F0741041189D63FE /* Pods-BooDillNick */,
+				5F4B4BE9B5CB6C59258EFAD6B5062109 /* Pods-BooDillNick-BooDillNickUITests */,
+				BC6C950505C5A36749050514EA6681E8 /* Pods-BooDillNickTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38F41772F008FAB2DFFCA8008DA7271 /* Pods-BooDillNickTests */ = {
+			isa = PBXGroup;
+			children = (
+				A96A797B0E8C3B5573CC7BF4D508B5F7 /* Pods-BooDillNickTests.modulemap */,
+				D12F877E6D8A0C0FFE363693C3269685 /* Pods-BooDillNickTests-acknowledgements.markdown */,
+				8A5B2A88F50B9DAD6B060583E876C2A9 /* Pods-BooDillNickTests-acknowledgements.plist */,
+				C80B115EB30C9EAC6D0EF8EF3458DE9A /* Pods-BooDillNickTests-dummy.m */,
+				A442382ADCE60CEF71EFB6CC154E2B35 /* Pods-BooDillNickTests-Info.plist */,
+				E69D4566A8125319AC3A3348FB7424C3 /* Pods-BooDillNickTests-umbrella.h */,
+				75B9DD1EB04F067959F0B3ED42EC71D8 /* Pods-BooDillNickTests.debug.xcconfig */,
+				D7A55F75102DBB413B49FFA0A51C33A8 /* Pods-BooDillNickTests.release.xcconfig */,
+			);
+			name = "Pods-BooDillNickTests";
+			path = "Target Support Files/Pods-BooDillNickTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				290EF93B132FD58ED3910F3C323C048C /* Pods */,
+				B07FE936E633410E7B3B34A5AB4B3FEE /* Products */,
+				A000CA7BFA3497C7EB56565ACE738334 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D662716940B780B34214C8DF070333DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D90668F3BF0C2717866632934304B5C /* AlarmKit.modulemap */,
+				B5C4F56F48004954E502158A451A048F /* AlarmKit-dummy.m */,
+				A73B02ED1E29B4B8D2F68DCB3DBBFD1D /* AlarmKit-Info.plist */,
+				25FE1A33894ED6E9580C5A00619600E8 /* AlarmKit-prefix.pch */,
+				4B99CA90C840205BD9FAA0264C2AE6F3 /* AlarmKit-umbrella.h */,
+				EB0B89A53FDF194D277DA48C8C2A460A /* AlarmKit.debug.xcconfig */,
+				BCB8943677AD5D8D7E34AAABB8938AD6 /* AlarmKit.release.xcconfig */,
+				43038FC2C8A0C68FEDBD1552CA9B66F3 /* ResourceBundle-AlarmKit-AlarmKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlarmKit";
+			sourceTree = "<group>";
+		};
+		FD4A7B689CF934A6237880FF3B1E1B80 /* Pods-BooDillNick */ = {
+			isa = PBXGroup;
+			children = (
+				DA418643F9AD6032F634C1524677B0E9 /* Pods-BooDillNick.modulemap */,
+				3B8E4A3686CBA4A4BEDF579B0F27459D /* Pods-BooDillNick-acknowledgements.markdown */,
+				D4F45A9DC0AF0E25E1DAD37B4DF3D0B2 /* Pods-BooDillNick-acknowledgements.plist */,
+				CBE976E22A5F67CA85DF90060AB9C1E9 /* Pods-BooDillNick-dummy.m */,
+				D1CA075F401F8247432CB46CD5713EE9 /* Pods-BooDillNick-frameworks.sh */,
+				45CF27DF8856ECF7731E3CB2769F5FBF /* Pods-BooDillNick-Info.plist */,
+				747C9492AACB220B876D5C5266908755 /* Pods-BooDillNick-umbrella.h */,
+				F28CC884E698FCCACD3C70B2AAACF0CA /* Pods-BooDillNick.debug.xcconfig */,
+				E4A8DB3BC144A5828066F96CEF1F9147 /* Pods-BooDillNick.release.xcconfig */,
+			);
+			name = "Pods-BooDillNick";
+			path = "Target Support Files/Pods-BooDillNick";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DDF929BDB59A338990564ADB9E68773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68E05D20B505E2C8978CFE0141094AC /* Pods-BooDillNickTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68A0CB4929BAAF91E131F90F06CFCC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528A619F106D5204275EF393C6816697 /* Pods-BooDillNick-BooDillNickUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE94A37C2B3D7373B4ACFCE50F301CC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414B92CB49E6A489BAC59ACBEEAE77BC /* Pods-BooDillNick-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6165663F1544E7F77C4AF787D5CCBC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB29D2D680BA94C0EBE367F92F92BBE8 /* AlarmKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4935DC88348AD4337102FC6F3F98EACC /* AlarmKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7E76C891F2A7C2F1779C6F15607BDF /* Build configuration list for PBXNativeTarget "AlarmKit" */;
+			buildPhases = (
+				E6165663F1544E7F77C4AF787D5CCBC0 /* Headers */,
+				ABF4666349FBB7D79C4AF6BCC111E73C /* Sources */,
+				62DC68F9C35509BB20CCAA11D76CE574 /* Frameworks */,
+				4BE844F6957637BB77B2FB1E091880E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1814E7B5A40397ECC47484E757319068 /* PBXTargetDependency */,
+			);
+			name = AlarmKit;
+			productName = AlarmKit;
+			productReference = 0EFC745FC4D78210FBC6BB9F7A916459 /* AlarmKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C9448DF608BCADF7F8A03CF4A2BC960 /* Pods-BooDillNickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6072E5F4EE77B315AB7E33AA7EFD4E80 /* Build configuration list for PBXNativeTarget "Pods-BooDillNickTests" */;
+			buildPhases = (
+				1DDF929BDB59A338990564ADB9E68773 /* Headers */,
+				E7407369A348B099EED8BB3D61504F4B /* Sources */,
+				76AEF115C0FAB87C06E618B925DB6C08 /* Frameworks */,
+				2256DD1FDAE25225D246F25A8CC64463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E2F347D01D61934EA588DD6468B551 /* PBXTargetDependency */,
+			);
+			name = "Pods-BooDillNickTests";
+			productName = Pods_BooDillNickTests;
+			productReference = BC6C950505C5A36749050514EA6681E8 /* Pods-BooDillNickTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		833BEE35AC33694DA90705D0EA421E3C /* Pods-BooDillNick-BooDillNickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6599BD3C728779C338A67793342A8AC /* Build configuration list for PBXNativeTarget "Pods-BooDillNick-BooDillNickUITests" */;
+			buildPhases = (
+				B68A0CB4929BAAF91E131F90F06CFCC8 /* Headers */,
+				01C227139726E3B83EAB613624715141 /* Sources */,
+				7FB04EE5E2C635CC23D3ED138214278C /* Frameworks */,
+				14432BDFED11365937092D2BC1983C00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A88BB2ED3C00E01F2742E4EFDEC5B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BooDillNick-BooDillNickUITests";
+			productName = Pods_BooDillNick_BooDillNickUITests;
+			productReference = 5F4B4BE9B5CB6C59258EFAD6B5062109 /* Pods-BooDillNick-BooDillNickUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B544CE0EB462A6EA6009510F20F65A7A /* AlarmKit-AlarmKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02759A66CDE967CABA2173710EA2B15A /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */;
+			buildPhases = (
+				34B7B1B5D0854621E41267B55B9268C6 /* Sources */,
+				22CA8A0DD10B710021FF9E51E57FF636 /* Frameworks */,
+				8BF9C50BC8386C91EAC9FEFD6BC2A769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AlarmKit-AlarmKit";
+			productName = AlarmKit;
+			productReference = DF00F251B8BCCC82DBE6F1038C05068D /* AlarmKit-AlarmKit */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E0D7C78309C67DC8F234809B895D7936 /* Pods-BooDillNick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57D8D1E7E0EB2CD88DDFCE45F5B140 /* Build configuration list for PBXNativeTarget "Pods-BooDillNick" */;
+			buildPhases = (
+				DE94A37C2B3D7373B4ACFCE50F301CC7 /* Headers */,
+				CAE6D16B7D749AE629FE3E26067038A9 /* Sources */,
+				3187B417E261A354C3F487C49FC7E8A3 /* Frameworks */,
+				C0CC8D423E62BA51F79A8D30BDB3E450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5575DC3551FA73AF6A523FDC2FFE1B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BooDillNick";
+			productName = Pods_BooDillNick;
+			productReference = 7FFC4D04699B57D3F0741041189D63FE /* Pods-BooDillNick */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B07FE936E633410E7B3B34A5AB4B3FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4935DC88348AD4337102FC6F3F98EACC /* AlarmKit */,
+				B544CE0EB462A6EA6009510F20F65A7A /* AlarmKit-AlarmKit */,
+				E0D7C78309C67DC8F234809B895D7936 /* Pods-BooDillNick */,
+				833BEE35AC33694DA90705D0EA421E3C /* Pods-BooDillNick-BooDillNickUITests */,
+				7C9448DF608BCADF7F8A03CF4A2BC960 /* Pods-BooDillNickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14432BDFED11365937092D2BC1983C00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2256DD1FDAE25225D246F25A8CC64463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE844F6957637BB77B2FB1E091880E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F72B0D8C4C3C5B56B14171B1F5A5CA /* AlarmKit-AlarmKit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF9C50BC8386C91EAC9FEFD6BC2A769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CC8D423E62BA51F79A8D30BDB3E450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01C227139726E3B83EAB613624715141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04653CFD9A5A4F7492D0B4204FB6F7D /* Pods-BooDillNick-BooDillNickUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7B1B5D0854621E41267B55B9268C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF4666349FBB7D79C4AF6BCC111E73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F046F108C10079ED00AEDDC1FA3363AC /* AlarmKit.swift in Sources */,
+				6B984E310C771041FE30327E584EABE7 /* AlarmKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE6D16B7D749AE629FE3E26067038A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E031E3793D1A269E65B543BA3AE2E7 /* Pods-BooDillNick-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7407369A348B099EED8BB3D61504F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584C31DBAAAAD4107D41A26DF4EE7DF4 /* Pods-BooDillNickTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1814E7B5A40397ECC47484E757319068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlarmKit-AlarmKit";
+			target = B544CE0EB462A6EA6009510F20F65A7A /* AlarmKit-AlarmKit */;
+			targetProxy = 390671A97EDE8B5FF0CF08D80CA25185 /* PBXContainerItemProxy */;
+		};
+		55E2F347D01D61934EA588DD6468B551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BooDillNick";
+			target = E0D7C78309C67DC8F234809B895D7936 /* Pods-BooDillNick */;
+			targetProxy = CF776CC9FCF11CA389924ED5D914F250 /* PBXContainerItemProxy */;
+		};
+		80A88BB2ED3C00E01F2742E4EFDEC5B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlarmKit;
+			target = 4935DC88348AD4337102FC6F3F98EACC /* AlarmKit */;
+			targetProxy = 564CE68C47FF66BFDF49ACC8E91750A4 /* PBXContainerItemProxy */;
+		};
+		F5575DC3551FA73AF6A523FDC2FFE1B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlarmKit;
+			target = 4935DC88348AD4337102FC6F3F98EACC /* AlarmKit */;
+			targetProxy = 4215C4552228972218D8027A6C132FA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015B514580C4ACCECAE5B0B5656290EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28CC884E698FCCACD3C70B2AAACF0CA /* Pods-BooDillNick.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNick/Pods-BooDillNick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNick/Pods-BooDillNick.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		042CAF4C1442B0462F270E1A0777AB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A55F75102DBB413B49FFA0A51C33A8 /* Pods-BooDillNickTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNickTests/Pods-BooDillNickTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNickTests/Pods-BooDillNickTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1381FB21A291B0BE88A339D0EB7EF0E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D02142AF6E21372221C728895D198E /* Pods-BooDillNick-BooDillNickUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNick-BooDillNickUITests/Pods-BooDillNick-BooDillNickUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNick-BooDillNickUITests/Pods-BooDillNick-BooDillNickUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5270FD296140F0E698745A07E73AC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0B89A53FDF194D277DA48C8C2A460A /* AlarmKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/AlarmKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
+				PRODUCT_MODULE_NAME = AlarmKit;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B9C352857E853FD9239F96810F0817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A8DB3BC144A5828066F96CEF1F9147 /* Pods-BooDillNick.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNick/Pods-BooDillNick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNick/Pods-BooDillNick.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		579CD5C90EEE65289E7A94079E3DD26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B9DD1EB04F067959F0B3ED42EC71D8 /* Pods-BooDillNickTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNickTests/Pods-BooDillNickTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNickTests/Pods-BooDillNickTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88BF261E4CC60733AC263A1F7DAF7729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0B89A53FDF194D277DA48C8C2A460A /* AlarmKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AlarmKit";
+				IBSC_MODULE = AlarmKit;
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/ResourceBundle-AlarmKit-AlarmKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8C70642E85647E4DD3EC6B52408E2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7538178D75F506458835E3693245B5FE /* Pods-BooDillNick-BooDillNickUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BooDillNick-BooDillNickUITests/Pods-BooDillNick-BooDillNickUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BooDillNick-BooDillNickUITests/Pods-BooDillNick-BooDillNickUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB61B42DCDB0E2864EDE57507EF52D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB8943677AD5D8D7E34AAABB8938AD6 /* AlarmKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AlarmKit";
+				IBSC_MODULE = AlarmKit;
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/ResourceBundle-AlarmKit-AlarmKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D2EEBEFB8B49B83F6AF9AF63D2297104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB8943677AD5D8D7E34AAABB8938AD6 /* AlarmKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlarmKit/AlarmKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlarmKit/AlarmKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlarmKit/AlarmKit.modulemap";
+				PRODUCT_MODULE_NAME = AlarmKit;
+				PRODUCT_NAME = AlarmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02759A66CDE967CABA2173710EA2B15A /* Build configuration list for PBXNativeTarget "AlarmKit-AlarmKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88BF261E4CC60733AC263A1F7DAF7729 /* Debug */,
+				CB61B42DCDB0E2864EDE57507EF52D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7E76C891F2A7C2F1779C6F15607BDF /* Build configuration list for PBXNativeTarget "AlarmKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5270FD296140F0E698745A07E73AC239 /* Debug */,
+				D2EEBEFB8B49B83F6AF9AF63D2297104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6072E5F4EE77B315AB7E33AA7EFD4E80 /* Build configuration list for PBXNativeTarget "Pods-BooDillNickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579CD5C90EEE65289E7A94079E3DD26E /* Debug */,
+				042CAF4C1442B0462F270E1A0777AB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57D8D1E7E0EB2CD88DDFCE45F5B140 /* Build configuration list for PBXNativeTarget "Pods-BooDillNick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015B514580C4ACCECAE5B0B5656290EE /* Debug */,
+				55B9C352857E853FD9239F96810F0817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6599BD3C728779C338A67793342A8AC /* Build configuration list for PBXNativeTarget "Pods-BooDillNick-BooDillNickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C70642E85647E4DD3EC6B52408E2796 /* Debug */,
+				1381FB21A291B0BE88A339D0EB7EF0E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920FF5012C629DF700D1DD74 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920FF5002C629DF700D1DD74 /* TimeViewController.swift */; };
 		9246BC622C57C196004ACEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246BC612C57C196004ACEB2 /* AppDelegate.swift */; };
 		9246BC642C57C196004ACEB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246BC632C57C196004ACEB2 /* SceneDelegate.swift */; };
 		9246BC662C57C196004ACEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9246BC652C57C196004ACEB2 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920FF5002C629DF700D1DD74 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 		9246BC5E2C57C196004ACEB2 /* BooDillNick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooDillNick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9246BC612C57C196004ACEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9246BC632C57C196004ACEB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9246BC632C57C196004ACEB2 /* SceneDelegate.swift */,
 				9246BC652C57C196004ACEB2 /* ViewController.swift */,
 				9246BC672C57C196004ACEB2 /* Main.storyboard */,
+				920FF5002C629DF700D1DD74 /* TimeViewController.swift */,
 				9246BC6F2C57C198004ACEB2 /* LaunchScreen.storyboard */,
 				9246BC6D2C57C198004ACEB2 /* Assets.xcassets */,
 				9246BC722C57C198004ACEB2 /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9246BC662C57C196004ACEB2 /* ViewController.swift in Sources */,
+				920FF5012C629DF700D1DD74 /* TimeViewController.swift in Sources */,
 				9246BC622C57C196004ACEB2 /* AppDelegate.swift in Sources */,
 				9246BC6C2C57C196004ACEB2 /* BooDillNick.xcdatamodeld in Sources */,
 				9246BC642C57C196004ACEB2 /* SceneDelegate.swift in Sources */,
