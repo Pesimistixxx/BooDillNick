@@ -130,7 +130,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="51" height="38.666666666666664"/>
                                 <color key="tintColor" systemColor="tableBackgroundColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.backward.fill" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.backward.fill" catalog="system">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="goBack:" destination="PKo-gK-6Jw" eventType="touchUpInside" id="ue8-2S-fvv"/>
                                 </connections>
@@ -172,10 +174,11 @@
                                 <date key="date" timeIntervalSinceReferenceDate="744446666.25768805">
                                     <!--2024-08-04 06:44:26 +0000-->
                                 </date>
+                                <locale key="locale" localeIdentifier="ru"/>
                             </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fs7-7i-BwW"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
                         <constraints>
                             <constraint firstItem="gg0-iK-2dX" firstAttribute="centerX" secondItem="fs7-7i-BwW" secondAttribute="centerX" id="5pb-0u-CXx"/>
                             <constraint firstItem="kcf-o4-NbK" firstAttribute="height" secondItem="fs7-7i-BwW" secondAttribute="height" multiplier="0.0461133" id="8Up-ib-7qR"/>
@@ -219,6 +222,9 @@
         </systemColor>
         <systemColor name="tableBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

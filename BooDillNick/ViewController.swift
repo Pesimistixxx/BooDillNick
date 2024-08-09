@@ -14,8 +14,8 @@ protocol VCDelegate{
 
 class ViewController: UIViewController, UIScrollViewDelegate{
     var alarmClock1Enabled = false
-    var alarmClock1Hour = 18
-    var alarmClock1Minute = 52
+    var alarmClock1Hour = 7
+    var alarmClock1Minute = 0
     
     @IBOutlet var alarmClock1Description: UILabel!
     @IBOutlet var AlarmClock1Minute: UIImageView!
@@ -31,8 +31,10 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     }
     override func prepare(for segue : UIStoryboardSegue, sender : Any?){
         if segue.identifier == "changeTime", let vc = segue.destination as?TimeViewController{
-            vc.po = 2
             vc.descriptionchange = alarmClock1Description.text!
+            print(alarmClock1Hour)
+            vc.dateHour = alarmClock1Hour
+            vc.dateMinute = alarmClock1Minute
             vc.delegate = self
         }
     }
@@ -59,6 +61,8 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     }
     
     override func viewDidLoad() {
+        AlarmClock1Hour.image = UIImage(named: String(alarmClock1Hour))
+        AlarmClock1Minute.image = UIImage(named: String(alarmClock1Minute))
         super.viewDidLoad()
         updateUI()
     }
@@ -66,9 +70,16 @@ class ViewController: UIViewController, UIScrollViewDelegate{
 
 extension ViewController : VCDelegate{
     func changeTime(hour: Int, minute: Int) {
-        AlarmClock1Minute.image = UIImage(named: String(minute))
-        AlarmClock1Hour.image = UIImage(named: String(hour))
-        //print(hour,minute)
+        var min = minute
+        var ho = hour
+        if minute < 0{
+            ho -= 1
+            min = 60 + minute
+        }
+        alarmClock1Hour = hour
+        alarmClock1Minute = minute
+        AlarmClock1Minute.image = UIImage(named: String(min))
+        AlarmClock1Hour.image = UIImage(named: String(ho))
     }
     func changeDescription(description : String){
         alarmClock1Description.text = description

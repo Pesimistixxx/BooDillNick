@@ -14,15 +14,12 @@ class TimeViewController: UIViewController , UITextFieldDelegate{
     }
     @IBAction func goBackAndSave(_ sender: UIButton) {
         self.dismiss(animated: true)
-        delegate.changeTime(hour: Int(TimePicker.date.description.dropFirst(11).dropLast(12))! + 3, minute: Int(TimePicker.date.description.dropFirst(14).dropLast(9))!)
+        //print(TimePicker.date.description,"ZA")
+        //print(TimePicker.date.description.dropFirst(11).dropLast(12))
+        delegate.changeTime(hour: Int(TimePicker.date.description.dropFirst(11).dropLast(12))! + 3, minute: Int(TimePicker.date.description.dropFirst(14).dropLast(9))! - 29)
         delegate.changeDescription(description: textField.text! ?? "")
     }
-    @IBOutlet var TimePicker: UIDatePicker!{
-        didSet{
-            var a = self.TimePicker.date.description.dropFirst(11).dropLast(12)
-            //print(a)
-        }
-    }
+    @IBOutlet var TimePicker: UIDatePicker!
     var delegate : VCDelegate!
     @IBOutlet var textField: UITextField!{
         didSet{
@@ -31,7 +28,8 @@ class TimeViewController: UIViewController , UITextFieldDelegate{
     }
     var hourValue = 1
     var minuteValue = 1
-    var po = 1
+    var dateHour = 0
+    var dateMinute = 0
     var descriptionchange = ""
     @IBAction func startEdit(_ sender: Any) {
         if textField.text == "Description"{
@@ -53,7 +51,11 @@ class TimeViewController: UIViewController , UITextFieldDelegate{
         TimePicker.setValue(false, forKeyPath: "highlightsToday")
         textField.delegate = self
         textField.text = descriptionchange
-        //let a = TimePicker.datefrom
+        let targetDate = DateComponents(hour: dateHour,minute: dateMinute)
+        let calendar = Calendar.current
+        if let date = calendar.date(from: targetDate) {
+            TimePicker.date = date
+        }
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
