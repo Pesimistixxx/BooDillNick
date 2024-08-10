@@ -70,16 +70,10 @@ class ViewController: UIViewController, UIScrollViewDelegate{
 
 extension ViewController : VCDelegate{
     func changeTime(hour: Int, minute: Int) {
-        var min = minute
-        var ho = hour
-        if minute < 0{
-            ho -= 1
-            min = 60 + minute
-        }
+        AlarmClock1Minute.image = UIImage(named: String(minute))
+        AlarmClock1Hour.image = UIImage(named: String(hour))
         alarmClock1Hour = hour
         alarmClock1Minute = minute
-        AlarmClock1Minute.image = UIImage(named: String(min))
-        AlarmClock1Hour.image = UIImage(named: String(ho))
     }
     func changeDescription(description : String){
         alarmClock1Description.text = description

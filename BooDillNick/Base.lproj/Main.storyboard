@@ -174,7 +174,9 @@
                                 <date key="date" timeIntervalSinceReferenceDate="744446666.25768805">
                                     <!--2024-08-04 06:44:26 +0000-->
                                 </date>
-                                <locale key="locale" localeIdentifier="ru"/>
+                                <connections>
+                                    <action selector="timePickerUpdate:" destination="PKo-gK-6Jw" eventType="valueChanged" id="wh3-uq-nHC"/>
+                                </connections>
                             </datePicker>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fs7-7i-BwW"/>
