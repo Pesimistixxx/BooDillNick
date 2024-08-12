@@ -11,9 +11,10 @@ import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var viewController = ViewController()
     let notificationCentre = UNUserNotificationCenter.current()
-
-
+    //var viewController : ViewController!
+    //viewController = ViewController()
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         notificationCentre.requestAuthorization(options: [.alert,.sound,.badge]){ (granted,error) in
             guard granted else {return}
@@ -25,18 +26,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         notificationCentre.delegate = self
-        sendNotification()
+        //sendNotification()
         return true
     }
     func sendNotification(){
-        let content = UNMutableNotificationContent()
-        content.title = "CLOCK ALARM"
-        content.body = "Solve a math example to turn it off"
-        content.sound = UNNotificationSound.default
-        let triger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-        let request = UNNotificationRequest(identifier: "notification", content: content, trigger: triger)
-        notificationCentre.add(request){ (error) in
-            print(error?.localizedDescription)
+            print("GOl")
+            let content = UNMutableNotificationContent()
+            content.title = "CLOCK ALARM"
+            content.body = "Solve a math example to turn it off"
+            content.sound = UNNotificationSound(named: UNNotificationSoundName("Default"))
+            let uuidString = UUID().uuidString
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)
+            let request = UNNotificationRequest(identifier: uuidString , content: content, trigger: trigger)
+            notificationCentre.add(request){ (error) in
+                print(error?.localizedDescription)
         }
     }
 
@@ -108,4 +111,6 @@ extension AppDelegate: UNUserNotificationCenterDelegate{
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         print(#function)
     }
+    
 }
+

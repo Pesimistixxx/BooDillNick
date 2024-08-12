@@ -16,7 +16,6 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     var alarmClock1Enabled = false
     var alarmClock1Hour = 7
     var alarmClock1Minute = 0
-    
     @IBOutlet var alarmClock1Description: UILabel!
     @IBOutlet var AlarmClock1Minute: UIImageView!
     @IBOutlet var AlarmClock1Hour: UIImageView!
@@ -26,7 +25,12 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     @IBOutlet var MinuteImage: UIImageView!
     @IBOutlet var SecondImage: UIImageView!
     @IBAction func SwitchAlarm1Changed(_ sender: UISwitch) {
-        alarmClock1Enabled = true
+        if SwitchAlarm1.isOn{
+            alarmClock1Enabled = true
+        }
+        else{
+            alarmClock1Enabled = false
+        }
         
     }
     override func prepare(for segue : UIStoryboardSegue, sender : Any?){
@@ -54,7 +58,7 @@ class ViewController: UIViewController, UIScrollViewDelegate{
             self.SecondImage.image = UIImage(named: String(currentSecond))
             if self.alarmClock1Enabled == true{
                 if currentHour == self.alarmClock1Hour && currentMinute == self.alarmClock1Minute && currentSecond  == 0{
-                    print("ALARM!")
+                    self.appDelegate.sendNotification()
                 }
             }
         }
@@ -74,8 +78,18 @@ extension ViewController : VCDelegate{
         AlarmClock1Hour.image = UIImage(named: String(hour))
         alarmClock1Hour = hour
         alarmClock1Minute = minute
+        
     }
     func changeDescription(description : String){
         alarmClock1Description.text = description
     }
+}
+extension UIViewController {
+
+var appDelegate: AppDelegate {
+
+return UIApplication.shared.delegate as! AppDelegate
+
+}
+
 }
